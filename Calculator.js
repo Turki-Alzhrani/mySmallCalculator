@@ -2,7 +2,7 @@
 let mydis = document.getElementById("display");
 
 function appendToDisplay(input){
-    if (mydis.value === "0") {
+    if (mydis.value === "0" || mydis.value === "Hello World" ) {
         mydis.value = input;
     } else {
         mydis.value += input;
